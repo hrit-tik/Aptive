@@ -1,6 +1,9 @@
 import { createClient } from '@supabase/supabase-js';
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 // Server-side Supabase client (bypasses CORS entirely)
 const supabase = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -33,8 +36,8 @@ export async function GET(request: NextRequest) {
         return NextResponse.json({ error: error.message }, { status: 500 });
     }
 
-    return NextResponse.json({
-        data: data || [],
-        count: count || 0,
-    });
+    return NextResponse.json(
+        { data: data || [], count: count || 0 },
+        { headers: { 'Cache-Control': 'no-store, no-cache, must-revalidate' } }
+    );
 }
