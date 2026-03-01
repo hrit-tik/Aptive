@@ -1,0 +1,688 @@
+[
+    {
+        "title": "Bar Chart — Sales Comparison",
+        "description": "A company's monthly sales (in ₹ lakhs) are: Jan=45, Feb=52, Mar=48, Apr=60, May=55. What is the percentage increase from Jan to Apr?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "33.3%",
+            "25%",
+            "30%",
+            "28%"
+        ],
+        "correct_answer": "33.3%",
+        "explanation": "Increase = 60−45 = 15. % increase = (15/45)×100 = 33.3%",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 78
+    },
+    {
+        "title": "Pie Chart — Budget Allocation",
+        "description": "A family's monthly budget: Rent=35%, Food=25%, Transport=15%, Savings=15%, Others=10%. If total income is ₹60,000, how much is spent on Food and Transport combined?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "24000",
+        "explanation": "Food+Transport = 25%+15% = 40%. Amount = 40% of 60000 = ₹24,000",
+        "constraints_info": "Enter without comma.",
+        "examples": [
+            {
+                "input": "Income=60000, Food=25%, Transport=15%",
+                "output": "24000"
+            }
+        ],
+        "acceptance_rate": 82
+    },
+    {
+        "title": "Line Graph — Temperature Trend",
+        "description": "Temperatures (°C) over 5 days: Mon=28, Tue=32, Wed=30, Thu=35, Fri=33. What is the average temperature?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "31.2°C",
+            "31.6°C",
+            "32°C",
+            "30.8°C"
+        ],
+        "correct_answer": "31.6°C",
+        "explanation": "Average = (28+32+30+35+33)/5 = 158/5 = 31.6°C",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 85
+    },
+    {
+        "title": "Table — Production Analysis",
+        "description": "Factory output (units): 2020=15000, 2021=18000, 2022=21600, 2023=25920. What is the consistent year-on-year growth rate?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "20%",
+            "15%",
+            "25%",
+            "18%"
+        ],
+        "correct_answer": "20%",
+        "explanation": "18000/15000=1.2, 21600/18000=1.2, 25920/21600=1.2. Growth rate = 20%",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 62
+    },
+    {
+        "title": "Caselet — Profit Comparison",
+        "description": "Company A earned ₹40 lakh profit in 2022 with a 25% margin. Company B earned ₹30 lakh with a 20% margin. Which company had higher revenue?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "Company A (₹160L)",
+            "Company B (₹150L)",
+            "Both equal",
+            "Cannot determine"
+        ],
+        "correct_answer": "Company A (₹160L)",
+        "explanation": "A's revenue = 40/0.25 = ₹160L. B's revenue = 30/0.20 = ₹150L. A has higher revenue.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 55
+    },
+    {
+        "title": "Bar Chart — Average Calculation",
+        "description": "Students in 5 sections: A=42, B=38, C=45, D=40, E=35. If the college wants average section strength of 42, how many more students are needed in total?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "10",
+        "explanation": "Current total = 42+38+45+40+35 = 200. Target = 42×5 = 210. Need 10 more.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 68
+    },
+    {
+        "title": "Pie Chart — Degree Calculation",
+        "description": "In a pie chart, if 'Food' occupies 90°, what percentage of the total does food represent?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "25",
+        "explanation": "Percentage = (90/360)×100 = 25%",
+        "constraints_info": "Enter the percentage number.",
+        "examples": [],
+        "acceptance_rate": 86
+    },
+    {
+        "title": "Mixed Chart — Revenue vs Expense",
+        "description": "A company's data (₹ crores): Revenue=[100,120,110,130,140], Expenses=[80,95,90,100,105] for Years 2019-2023. In which year was the profit margin highest?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "2019",
+            "2020",
+            "2023",
+            "2022"
+        ],
+        "correct_answer": "2023",
+        "explanation": "Profit margins: 2019=20%, 2020=20.8%, 2021=18.2%, 2022=23.1%, 2023=25%. 2023 is highest.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 50
+    },
+    {
+        "title": "Table — Percentage Share",
+        "description": "Export data ($ million): India=250, China=480, Japan=320, USA=550, Germany=400. What is India's percentage share of total exports?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "12.5%",
+            "15%",
+            "10%",
+            "13.5%"
+        ],
+        "correct_answer": "12.5%",
+        "explanation": "Total = 250+480+320+550+400 = 2000. India's share = (250/2000)×100 = 12.5%",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 78
+    },
+    {
+        "title": "Line Graph — Rate of Change",
+        "description": "Population (thousands): 2018=200, 2019=220, 2020=253, 2021=278, 2022=320. Between which consecutive years was the growth rate highest?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "2019-2020",
+            "2018-2019",
+            "2021-2022",
+            "2020-2021"
+        ],
+        "correct_answer": "2021-2022",
+        "explanation": "Growth rates: 18-19=10%, 19-20=15%, 20-21=9.9%, 21-22=15.1%. Highest is 2021-2022.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 52
+    },
+    {
+        "title": "Bar Chart — Ratio Comparison",
+        "description": "Production (tonnes): Factory X=[80,90,100,110], Factory Y=[60,75,90,120] for Q1-Q4. In which quarter was X's production closest to Y's?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "Q4",
+            "Q3",
+            "Q2",
+            "Q1"
+        ],
+        "correct_answer": "Q3",
+        "explanation": "Differences: Q1=20, Q2=15, Q3=10, Q4=−10(absolute=10). Q3 and Q4 tied at 10. Q3 comes first.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 72
+    },
+    {
+        "title": "Caselet — Exam Analysis",
+        "description": "In an exam of 500 students: 60% passed in Math, 50% in English, and 30% passed in both. How many students failed in both subjects?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "100",
+        "explanation": "Passed at least one = 60+50−30 = 80%. Failed both = 20% of 500 = 100 students.",
+        "constraints_info": null,
+        "examples": [
+            {
+                "input": "Total=500, Math=60%, Eng=50%, Both=30%",
+                "output": "100"
+            }
+        ],
+        "acceptance_rate": 60
+    },
+    {
+        "title": "Stacked Bar — Component Analysis",
+        "description": "Product sales (units) by region: North=[300,400], South=[200,350], East=[150,250], West=[350,300] for Year 1 and 2. Which region showed the highest growth?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "South (75%)",
+            "East (66.7%)",
+            "North (33.3%)",
+            "South"
+        ],
+        "correct_answer": "South (75%)",
+        "explanation": "Growth: N=33.3%, S=75%, E=66.7%, W=−14.3%. South grew the most at 75%.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 48
+    },
+    {
+        "title": "Table — Per Capita Income",
+        "description": "Country data: Population (million)=[50,120,80,200], GDP ($billion)=[500,960,720,1200]. Which country has the highest per capita income?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "Country A ($10,000)",
+            "Country C ($9,000)",
+            "Country D ($6,000)",
+            "Country B ($8,000)"
+        ],
+        "correct_answer": "Country A ($10,000)",
+        "explanation": "Per capita: A=500/50=10k, B=960/120=8k, C=720/80=9k, D=1200/200=6k. A is highest.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 73
+    },
+    {
+        "title": "Pie Chart — Sector Wise Employment",
+        "description": "Employment distribution: IT=25%, Manufacturing=30%, Agriculture=20%, Services=15%, Others=10%. If IT employs 50 lakh people, what is the total employment?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "200",
+        "explanation": "25% = 50 lakh. Total = 50/0.25 = 200 lakh",
+        "constraints_info": "Enter in lakhs.",
+        "examples": [],
+        "acceptance_rate": 80
+    },
+    {
+        "title": "Table — CAGR Calculation",
+        "description": "Revenue: Year 0=₹100 crore, Year 3=₹172.8 crore. What is the CAGR?",
+        "difficulty": "Hard",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "20%",
+            "18%",
+            "22%",
+            "15%"
+        ],
+        "correct_answer": "20%",
+        "explanation": "CAGR = (172.8/100)^(1/3) − 1 = (1.728)^(1/3) − 1 = 1.2 − 1 = 20%",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 38
+    },
+    {
+        "title": "Bar Chart — Deviation from Average",
+        "description": "Sales (₹000s): Store A=85, B=92, C=78, D=105, E=90. How much does Store D deviate from the average?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "15",
+        "explanation": "Average = (85+92+78+105+90)/5 = 450/5 = 90. Deviation = 105−90 = 15",
+        "constraints_info": "Enter in thousands.",
+        "examples": [],
+        "acceptance_rate": 76
+    },
+    {
+        "title": "Line Graph — Intersection",
+        "description": "Product A sales: 100,120,150,180,200 (Years 1-5). Product B: 200,190,170,160,150. In which year do they have approximately equal sales?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "Between Year 3 and 4",
+            "Year 3",
+            "Between Year 4 and 5",
+            "Year 4"
+        ],
+        "correct_answer": "Between Year 3 and 4",
+        "explanation": "Year 3: A=150, B=170 (B>A). Year 4: A=180, B=160 (A>B). They cross between Year 3 and 4.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 55
+    },
+    {
+        "title": "Table — Index Calculation",
+        "description": "Base year (2015) price index = 100. Prices: 2016=108, 2017=115, 2018=125, 2019=140. What is the inflation rate from 2018 to 2019?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "12",
+        "explanation": "Inflation = ((140−125)/125)×100 = 15/125×100 = 12%",
+        "constraints_info": "Enter percentage.",
+        "examples": [],
+        "acceptance_rate": 52
+    },
+    {
+        "title": "Caselet — Market Share",
+        "description": "Total smartphone market is 80 million units. Brand A has 25% share, B has 20%, C has 15%. Rest is split equally among 4 other brands. How many units does each of the 4 brands sell?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "8",
+        "explanation": "A+B+C = 60%. Remaining = 40% of 80M = 32M. Each of 4 = 32/4 = 8 million",
+        "constraints_info": "Enter in millions.",
+        "examples": [],
+        "acceptance_rate": 62
+    },
+    {
+        "title": "Mixed Data — Profit Analysis",
+        "description": "Company data: Revenue=₹500 crore, COGS=₹300 crore, Operating Expenses=₹100 crore, Tax Rate=30%. What is the net profit?",
+        "difficulty": "Hard",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "70",
+        "explanation": "Gross Profit = 500−300 = 200. Operating Profit = 200−100 = 100. Tax = 30% of 100 = 30. Net Profit = 100−30 = ₹70 crore",
+        "constraints_info": "Enter in crores.",
+        "examples": [],
+        "acceptance_rate": 42
+    },
+    {
+        "title": "Table — Comparative Growth",
+        "description": "Country GDP growth rates: India=[7.2,6.8,7.5,8.1], China=[6.5,6.2,5.8,5.5] for 2020-2023. What is India's average growth rate?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "7.4%",
+            "7.2%",
+            "7.5%",
+            "7.0%"
+        ],
+        "correct_answer": "7.4%",
+        "explanation": "Average = (7.2+6.8+7.5+8.1)/4 = 29.6/4 = 7.4%",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 75
+    },
+    {
+        "title": "Pie Chart — Budget Reallocation",
+        "description": "If a family reduces Food spend from 30% to 25% and adds it to Savings (originally 10%), and total budget is ₹1,00,000, what are the new Savings?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "15000",
+        "explanation": "New Savings = 10% + 5% = 15% of 100000 = ₹15,000",
+        "constraints_info": "Enter without comma.",
+        "examples": [],
+        "acceptance_rate": 80
+    },
+    {
+        "title": "Bar Chart — Year-on-Year",
+        "description": "Website visits (thousands): 2019=150, 2020=180, 2021=210, 2022=189, 2023=240. In which year did visits decline?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "2022",
+            "2020",
+            "2021",
+            "2023"
+        ],
+        "correct_answer": "2022",
+        "explanation": "2022 (189) < 2021 (210). This is the only decline.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 88
+    },
+    {
+        "title": "Table — Weighted Average",
+        "description": "Three departments have scores: Dept A (50 employees, avg score 72), Dept B (30 employees, avg 85), Dept C (20 employees, avg 68). What is the overall weighted average?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "75.1",
+            "74.5",
+            "76",
+            "73.8"
+        ],
+        "correct_answer": "75.1",
+        "explanation": "Weighted avg = (50×72+30×85+20×68)/(50+30+20) = (3600+2550+1360)/100 = 7510/100 = 75.1",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 56
+    },
+    {
+        "title": "Caselet — Loan EMI",
+        "description": "A loan of ₹10 lakh at 12% annual interest simple for 5 years. What is the total amount to be repaid and the monthly installment (approx)?",
+        "difficulty": "Hard",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "₹16L, ₹26,667/mo",
+            "₹14L, ₹23,333/mo",
+            "₹16L, ₹25,000/mo",
+            "₹15L, ₹25,000/mo"
+        ],
+        "correct_answer": "₹16L, ₹26,667/mo",
+        "explanation": "SI = 10×12×5/100 = ₹6L. Total = ₹16L. Monthly = 16,00,000/60 = ₹26,667",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 40
+    },
+    {
+        "title": "Data Sufficiency — Sales",
+        "description": "Is the profit of Company X more than ₹50 crore?\n\nI. Revenue is ₹200 crore.\nII. Profit margin is 30%.",
+        "difficulty": "Hard",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "I alone sufficient",
+            "II alone sufficient",
+            "Both together sufficient",
+            "Neither sufficient"
+        ],
+        "correct_answer": "Both together sufficient",
+        "explanation": "From I: Revenue=200. From II: Margin=30%. Together: Profit=200×30%=60>50. Both needed.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 45
+    },
+    {
+        "title": "Table — Ratio Analysis",
+        "description": "Company financials: Assets=₹500 crore, Liabilities=₹300 crore, Revenue=₹400 crore, Net Income=₹60 crore. What is the Debt-to-Equity ratio?",
+        "difficulty": "Hard",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "1.5",
+            "0.67",
+            "3.0",
+            "0.6"
+        ],
+        "correct_answer": "1.5",
+        "explanation": "Equity = Assets−Liabilities = 500−300 = 200. D/E = 300/200 = 1.5",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 38
+    },
+    {
+        "title": "Line Graph — Forecast",
+        "description": "Sales trend (₹ lakhs): Q1=100, Q2=115, Q3=132, Q4=152. If the same percentage growth continues, predict Q5.",
+        "difficulty": "Hard",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "₹175 lakhs",
+            "₹170 lakhs",
+            "₹180 lakhs",
+            "₹165 lakhs"
+        ],
+        "correct_answer": "₹175 lakhs",
+        "explanation": "Growth rates: Q2/Q1=15%, Q3/Q2=14.8%, Q4/Q3=15.2%. Average ≈15%. Q5 = 152×1.15 ≈ ₹175 lakhs",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 42
+    },
+    {
+        "title": "Scatter Plot — Correlation",
+        "description": "Data points show that as advertisement spending increases (₹10L,20L,30L,40L,50L), sales increase (₹100L,180L,250L,310L,360L). What is the approximate additional sales per ₹10L of ad spend?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "₹65 lakhs",
+            "₹70 lakhs",
+            "₹80 lakhs",
+            "₹50 lakhs"
+        ],
+        "correct_answer": "₹65 lakhs",
+        "explanation": "Increments: 80,70,60,50. Average increment = (80+70+60+50)/4 = 65 lakhs per ₹10L spend.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 50
+    },
+    {
+        "title": "Table — Break-Even Analysis",
+        "description": "Fixed costs=₹5 lakhs/month, Variable cost=₹200/unit, Selling price=₹500/unit. How many units must be sold to break even?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "1,667 units",
+            "2,000 units",
+            "1,500 units",
+            "2,500 units"
+        ],
+        "correct_answer": "1,667 units",
+        "explanation": "Contribution per unit = 500−200 = 300. Break-even = 500000/300 = 1,666.67 ≈ 1,667 units",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 55
+    },
+    {
+        "title": "Pie Chart — Multi-Year",
+        "description": "2022 Revenue=₹800 crore (IT=40%, Consulting=35%, Others=25%). 2023 Revenue=₹1000 crore (IT=45%, Consulting=30%, Others=25%). What is the absolute growth of IT segment?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "130",
+        "explanation": "2022 IT = 40% of 800 = 320. 2023 IT = 45% of 1000 = 450. Growth = 450−320 = ₹130 crore",
+        "constraints_info": "Enter in crores.",
+        "examples": [],
+        "acceptance_rate": 52
+    },
+    {
+        "title": "Table — Rank Ordering",
+        "description": "City-wise AQI (Air Quality Index): Delhi=285, Mumbai=142, Bangalore=78, Chennai=95, Kolkata=180. Rank them from best to worst air quality.",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "Bangalore, Chennai, Mumbai, Kolkata, Delhi",
+            "Chennai, Bangalore, Mumbai, Kolkata, Delhi",
+            "Bangalore, Mumbai, Chennai, Kolkata, Delhi",
+            "Mumbai, Bangalore, Chennai, Kolkata, Delhi"
+        ],
+        "correct_answer": "Bangalore, Chennai, Mumbai, Kolkata, Delhi",
+        "explanation": "Lower AQI = better air. Order: Bangalore(78), Chennai(95), Mumbai(142), Kolkata(180), Delhi(285).",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 82
+    },
+    {
+        "title": "Bar Chart — Stacked Percentage",
+        "description": "School exam results: Pass with distinction=15%, First class=35%, Second class=30%, Fail=20%. If 800 students appeared, how many got first class or above?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "400",
+        "explanation": "First class + Distinction = 35+15 = 50%. Count = 50% of 800 = 400",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 80
+    },
+    {
+        "title": "Table — Compound Metric",
+        "description": "Employee data: Team A (10 people, 95% attendance, avg performance 8.2/10). Team B (15 people, 88% attendance, avg performance 8.7/10). Which team has higher effective productivity?",
+        "difficulty": "Hard",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "Team A (score: 7.79)",
+            "Team B (score: 7.66)",
+            "Both equal",
+            "Cannot determine"
+        ],
+        "correct_answer": "Team A (score: 7.79)",
+        "explanation": "Effective score = attendance × performance. A: 0.95×8.2=7.79. B: 0.88×8.7=7.656. Team A is higher.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 40
+    },
+    {
+        "title": "Mixed — Investment Returns",
+        "description": "₹1 lakh invested: 40% in stocks (return 15%), 30% in bonds (return 8%), 30% in FD (return 6%). What is the total return amount?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "10200",
+        "explanation": "Stocks: 40000×0.15=6000. Bonds: 30000×0.08=2400. FD: 30000×0.06=1800. Total return=₹10,200",
+        "constraints_info": "Enter without comma.",
+        "examples": [],
+        "acceptance_rate": 58
+    },
+    {
+        "title": "Table — Missing Value",
+        "description": "A table shows: Input=10,Output=25; Input=20,Output=45; Input=30,Output=65; Input=40,Output=?. Find the pattern and the missing output.",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "85",
+        "explanation": "Pattern: Output = 2×Input + 5. For 40: 2×40+5 = 85",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 78
+    },
+    {
+        "title": "Caselet — Election Results",
+        "description": "Total votes=1,00,000. Candidate A got 45%, B got 35%, C got 15%, invalid=5%. By how many votes did A beat B?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "10000",
+        "explanation": "A's votes = 45000, B's = 35000. Difference = 10,000",
+        "constraints_info": "Enter without comma.",
+        "examples": [],
+        "acceptance_rate": 82
+    },
+    {
+        "title": "Table — Efficiency Index",
+        "description": "Machine output (units/hour): Machine A=120, B=95, C=150, D=110. Machine costs (₹/hour): A=600, B=400, C=900, D=500. Which machine has the best cost efficiency (units per rupee)?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "Machine B (0.2375)",
+            "Machine A (0.20)",
+            "Machine D (0.22)",
+            "Machine C (0.167)"
+        ],
+        "correct_answer": "Machine B (0.2375)",
+        "explanation": "Units/₹: A=120/600=0.20, B=95/400=0.2375, C=150/900=0.167, D=110/500=0.22. B is most efficient.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 48
+    },
+    {
+        "title": "Graph — Area Under Curve",
+        "description": "A car's speed (km/h) over 4 hours: Hour 1=60, Hour 2=80, Hour 3=70, Hour 4=90. Approximately what total distance was covered?",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "numerical",
+        "options": null,
+        "correct_answer": "300",
+        "explanation": "Distance = sum of (speed × time). 60+80+70+90 = 300 km",
+        "constraints_info": "Enter km.",
+        "examples": [],
+        "acceptance_rate": 83
+    },
+    {
+        "title": "Table — Standard Deviation Concept",
+        "description": "Two students' scores in 5 tests: Student A=[80,82,78,81,79], Student B=[70,90,60,95,85]. Both average 80. Who is more consistent?",
+        "difficulty": "Medium",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "Student A",
+            "Student B",
+            "Both equally consistent",
+            "Cannot determine"
+        ],
+        "correct_answer": "Student A",
+        "explanation": "Student A's scores are all within 2 marks of the mean. Student B's scores vary widely (60 to 95). A has lower variance, hence more consistent.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 65
+    },
+    {
+        "title": "Caselet — Population Density",
+        "description": "City area=1500 sq km, Population=45 lakhs. Suburb area=3000 sq km, Population=30 lakhs. Compare population densities.",
+        "difficulty": "Easy",
+        "category_id": 3,
+        "answer_type": "mcq",
+        "options": [
+            "City=3000/sq km, Suburb=1000/sq km",
+            "City=3000/sq km, Suburb=1500/sq km",
+            "City=2000/sq km, Suburb=1000/sq km",
+            "City=3000/sq km, Suburb=500/sq km"
+        ],
+        "correct_answer": "City=3000/sq km, Suburb=1000/sq km",
+        "explanation": "City: 4500000/1500=3000/sq km. Suburb: 3000000/3000=1000/sq km.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 75
+    }
+]

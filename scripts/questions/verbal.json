@@ -1,0 +1,866 @@
+[
+    {
+        "title": "Synonym — BENEVOLENT",
+        "description": "Choose the word closest in meaning to BENEVOLENT.",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Kind",
+            "Hostile",
+            "Greedy",
+            "Lazy"
+        ],
+        "correct_answer": "Kind",
+        "explanation": "Benevolent means well-meaning and kind.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 85
+    },
+    {
+        "title": "Antonym — DILIGENT",
+        "description": "Choose the word opposite in meaning to DILIGENT.",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Lazy",
+            "Careful",
+            "Hardworking",
+            "Sincere"
+        ],
+        "correct_answer": "Lazy",
+        "explanation": "Diligent means hardworking. Its opposite is lazy.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 82
+    },
+    {
+        "title": "Sentence Correction — Subject-Verb Agreement",
+        "description": "Choose the correct sentence:\nA) The team are playing well today.\nB) The team is playing well today.\nC) The teams is playing well today.\nD) The team were playing well today.",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "correct_answer": "B",
+        "explanation": "'Team' is a collective noun (singular) and takes 'is'. Option B is correct.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 78
+    },
+    {
+        "title": "Fill in the Blank — Preposition",
+        "description": "She has been living in Mumbai ___ 2015.",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "since",
+            "for",
+            "from",
+            "at"
+        ],
+        "correct_answer": "since",
+        "explanation": "'Since' is used with a point in time. 'For' is used with a duration.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 80
+    },
+    {
+        "title": "Idiom — Meaning",
+        "description": "What does the idiom 'burn the midnight oil' mean?",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "To work late into the night",
+            "To waste resources",
+            "To start a fire",
+            "To travel at night"
+        ],
+        "correct_answer": "To work late into the night",
+        "explanation": "'Burn the midnight oil' means to study or work late into the night.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 84
+    },
+    {
+        "title": "One Word Substitution — Person",
+        "description": "A person who walks in their sleep is called:",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Somnambulist",
+            "Insomniac",
+            "Egotist",
+            "Altruist"
+        ],
+        "correct_answer": "Somnambulist",
+        "explanation": "Somnambulist = a person who sleepwalks. Insomniac = can't sleep. Egotist = self-centered. Altruist = selfless.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 68
+    },
+    {
+        "title": "Reading Comprehension — Main Idea",
+        "description": "Read: 'Artificial intelligence is transforming healthcare by enabling faster diagnoses, personalized treatments, and predictive analytics. Hospitals using AI-powered tools report 30% improvement in early disease detection. However, concerns about data privacy and algorithmic bias remain significant challenges.'\n\nWhat is the main idea?",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "AI improves healthcare but raises concerns",
+            "AI will replace all doctors",
+            "Data privacy is the only issue with AI",
+            "Hospitals should stop using AI"
+        ],
+        "correct_answer": "AI improves healthcare but raises concerns",
+        "explanation": "The passage discusses both benefits (faster diagnoses, better detection) and challenges (privacy, bias) of AI in healthcare.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 82
+    },
+    {
+        "title": "Error Spotting — Tense",
+        "description": "Find the error: 'He has went to the market yesterday.'",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "has went → went",
+            "to the → at the",
+            "market → markets",
+            "yesterday → today"
+        ],
+        "correct_answer": "has went → went",
+        "explanation": "'Has went' is incorrect. Either 'has gone' (present perfect) or 'went' (past simple with 'yesterday'). Since 'yesterday' is used, simple past 'went' is correct.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 79
+    },
+    {
+        "title": "Synonym — PRAGMATIC",
+        "description": "Choose the word closest in meaning to PRAGMATIC.",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Practical",
+            "Theoretical",
+            "Emotional",
+            "Idealistic"
+        ],
+        "correct_answer": "Practical",
+        "explanation": "Pragmatic means dealing with things in a practical, realistic way rather than theoretical.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 65
+    },
+    {
+        "title": "Antonym — EPHEMERAL",
+        "description": "Choose the word opposite in meaning to EPHEMERAL.",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Permanent",
+            "Temporary",
+            "Brief",
+            "Fleeting"
+        ],
+        "correct_answer": "Permanent",
+        "explanation": "Ephemeral means lasting for a very short time. Its opposite is permanent.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 58
+    },
+    {
+        "title": "Para Jumbles — Reorder",
+        "description": "Arrange in correct order:\nP. He was born in a small village.\nQ. Today he is one of the richest people in India.\nR. He started his first business at age 20.\nS. Despite many failures, he persevered.",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "PRSQ",
+            "PRQS",
+            "PSRQ",
+            "RPQS"
+        ],
+        "correct_answer": "PRSQ",
+        "explanation": "Logical order: Born in village (P) → Started business (R) → Persevered through failures (S) → Now rich (Q).",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 52
+    },
+    {
+        "title": "Sentence Correction — Pronoun",
+        "description": "Choose the correct sentence:\nA) Me and him went to the store.\nB) He and I went to the store.\nC) Him and I went to the store.\nD) Me and he went to the store.",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "correct_answer": "B",
+        "explanation": "Subject pronouns (He, I) should be used as the subject of a sentence, not object pronouns (him, me).",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 75
+    },
+    {
+        "title": "Fill in the Blank — Vocabulary",
+        "description": "The professor's lecture was so ___ that half the audience fell asleep.",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "monotonous",
+            "exciting",
+            "thrilling",
+            "captivating"
+        ],
+        "correct_answer": "monotonous",
+        "explanation": "Monotonous means dull and repetitive, which would cause people to fall asleep.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 82
+    },
+    {
+        "title": "Idiom — Hit the Nail",
+        "description": "What does 'hit the nail on the head' mean?",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "To be exactly right",
+            "To hurt someone",
+            "To use a hammer",
+            "To make a mistake"
+        ],
+        "correct_answer": "To be exactly right",
+        "explanation": "'Hit the nail on the head' means to describe exactly what is causing a situation or problem.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 86
+    },
+    {
+        "title": "Reading Comprehension — Inference",
+        "description": "Read: 'The company announced a 15% pay cut for all executives while maintaining hourly workers' wages. The CEO publicly took a 30% cut. Employee satisfaction surveys showed a 20% increase in trust scores.'\n\nWhat can be inferred?",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Leadership sacrifice boosted employee trust",
+            "The company was highly profitable",
+            "All employees got pay cuts",
+            "Trust scores always increase during cuts"
+        ],
+        "correct_answer": "Leadership sacrifice boosted employee trust",
+        "explanation": "The passage links leadership pay cuts with increased trust scores, suggesting sacrifice built trust.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 60
+    },
+    {
+        "title": "One Word Substitution — Place",
+        "description": "A place where dead bodies are kept for identification is called:",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Mortuary",
+            "Cemetery",
+            "Sanctuary",
+            "Archive"
+        ],
+        "correct_answer": "Mortuary",
+        "explanation": "Mortuary = place for keeping dead bodies. Cemetery = burial ground. Sanctuary = safe place. Archive = records storage.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 62
+    },
+    {
+        "title": "Error Spotting — Article",
+        "description": "Find the error: 'She is a honest woman and everyone respects her.'",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "a honest → an honest",
+            "everyone → all",
+            "respects → respect",
+            "her → she"
+        ],
+        "correct_answer": "a honest → an honest",
+        "explanation": "'Honest' starts with a vowel sound (the 'h' is silent), so 'an' should be used instead of 'a'.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 76
+    },
+    {
+        "title": "Synonym — UBIQUITOUS",
+        "description": "Choose the word closest in meaning to UBIQUITOUS.",
+        "difficulty": "Hard",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Omnipresent",
+            "Rare",
+            "Unique",
+            "Selective"
+        ],
+        "correct_answer": "Omnipresent",
+        "explanation": "Ubiquitous means present, appearing, or found everywhere. Omnipresent has the same meaning.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 42
+    },
+    {
+        "title": "Antonym — OSTENTATIOUS",
+        "description": "Choose the word opposite in meaning to OSTENTATIOUS.",
+        "difficulty": "Hard",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Modest",
+            "Showy",
+            "Flashy",
+            "Extravagant"
+        ],
+        "correct_answer": "Modest",
+        "explanation": "Ostentatious means designed to impress or attract attention. Modest is its opposite.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 40
+    },
+    {
+        "title": "Cloze Test — Passage",
+        "description": "Fill in the blanks: 'Education is the most powerful ___(1)___ which you can use to change the world. It gives people the ___(2)___ to think critically.'\n\n(1) and (2) are:",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "weapon, ability",
+            "gun, power",
+            "tool, chance",
+            "sword, right"
+        ],
+        "correct_answer": "weapon, ability",
+        "explanation": "This is a famous Nelson Mandela quote. 'Weapon' (metaphorical tool) and 'ability' (capacity to think) fit best contextually.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 65
+    },
+    {
+        "title": "Sentence Improvement",
+        "description": "'No sooner did he reached the station when the train left.'\n\nChoose the correct version:",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "No sooner did he reach the station than the train left.",
+            "No sooner he reached the station than the train left.",
+            "No sooner did he reached the station than the train left.",
+            "No sooner did he reach the station when the train left."
+        ],
+        "correct_answer": "No sooner did he reach the station than the train left.",
+        "explanation": "'No sooner...than' is the correct construction. After 'did', use base form 'reach' (not 'reached').",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 48
+    },
+    {
+        "title": "Vocabulary — Context",
+        "description": "The politician's speech was full of ___ promises that no one believed.",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "hollow",
+            "solid",
+            "genuine",
+            "concrete"
+        ],
+        "correct_answer": "hollow",
+        "explanation": "Hollow means empty or insincere — promises that lack substance and aren't believed.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 80
+    },
+    {
+        "title": "Reading Comprehension — Tone",
+        "description": "Read: 'While social media connects billions globally, its impact on mental health is alarming. Studies link excessive usage to anxiety, depression, and reduced self-esteem, particularly among teenagers. Perhaps it is time we reconsider our digital habits.'\n\nWhat is the tone of the passage?",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Cautionary",
+            "Celebratory",
+            "Neutral",
+            "Humorous"
+        ],
+        "correct_answer": "Cautionary",
+        "explanation": "Words like 'alarming', 'anxiety', 'depression', and 'reconsider' indicate a cautionary tone.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 62
+    },
+    {
+        "title": "Active-Passive Voice",
+        "description": "Convert to passive voice: 'The manager approved the proposal.'",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "The proposal was approved by the manager.",
+            "The proposal has approved the manager.",
+            "The manager was approved by the proposal.",
+            "The proposal is approved by the manager."
+        ],
+        "correct_answer": "The proposal was approved by the manager.",
+        "explanation": "Simple past active → was/were + past participle + by agent.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 82
+    },
+    {
+        "title": "Direct-Indirect Speech",
+        "description": "Convert: He said, 'I am going to the market.'",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "He said that he was going to the market.",
+            "He said that I am going to the market.",
+            "He said that he is going to the market.",
+            "He told that he was going to the market."
+        ],
+        "correct_answer": "He said that he was going to the market.",
+        "explanation": "Direct to indirect: 'I' → 'he', 'am going' → 'was going' (tense shifts back).",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 76
+    },
+    {
+        "title": "Idiom — Spill the Beans",
+        "description": "What does 'spill the beans' mean?",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "To reveal a secret",
+            "To waste food",
+            "To make a mess",
+            "To cook beans"
+        ],
+        "correct_answer": "To reveal a secret",
+        "explanation": "'Spill the beans' means to reveal secret information, especially unintentionally.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 85
+    },
+    {
+        "title": "One Word Substitution — Act",
+        "description": "The act of killing a king is called:",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Regicide",
+            "Homicide",
+            "Suicide",
+            "Genocide"
+        ],
+        "correct_answer": "Regicide",
+        "explanation": "Regicide = killing a king. Homicide = killing a person. Suicide = killing oneself. Genocide = killing a large group.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 55
+    },
+    {
+        "title": "Antonym — LOQUACIOUS",
+        "description": "Choose the word opposite in meaning to LOQUACIOUS.",
+        "difficulty": "Hard",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Taciturn",
+            "Talkative",
+            "Verbose",
+            "Garrulous"
+        ],
+        "correct_answer": "Taciturn",
+        "explanation": "Loquacious means very talkative. Taciturn means reserved or uncommunicative — the opposite.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 38
+    },
+    {
+        "title": "Fill in the Blank — Conjunction",
+        "description": "___ he is rich, he lives a simple life.",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Although",
+            "Because",
+            "Since",
+            "Therefore"
+        ],
+        "correct_answer": "Although",
+        "explanation": "'Although' introduces a contrast: being rich (expectation of lavish life) vs. living simply.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 78
+    },
+    {
+        "title": "Error Spotting — Word Choice",
+        "description": "Find the error: 'The sceneries of Kashmir are very beautiful.'",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "sceneries → scenery",
+            "of → in",
+            "are → is",
+            "beautiful → beautifully"
+        ],
+        "correct_answer": "sceneries → scenery",
+        "explanation": "'Scenery' is an uncountable noun and has no plural form. 'The scenery of Kashmir is very beautiful.'",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 55
+    },
+    {
+        "title": "Reading Comprehension — Detail",
+        "description": "Read: 'The Indian space program, ISRO, successfully launched its Mars Orbiter Mission (Mangalyaan) in 2013 at a cost of just $74 million — less than the budget of the Hollywood movie Gravity. It became the first Asian nation to reach Mars orbit.'\n\nWhat made ISRO's Mars mission remarkable?",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Its very low cost and first-attempt success",
+            "It carried humans to Mars",
+            "It was the most expensive space mission",
+            "It was launched from Mars"
+        ],
+        "correct_answer": "Its very low cost and first-attempt success",
+        "explanation": "The passage emphasizes the low cost ($74M, less than a movie) and being first Asian nation to reach Mars.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 85
+    },
+    {
+        "title": "Synonym — METICULOUS",
+        "description": "Choose the word closest in meaning to METICULOUS.",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Thorough",
+            "Careless",
+            "Hasty",
+            "Indifferent"
+        ],
+        "correct_answer": "Thorough",
+        "explanation": "Meticulous means showing great attention to detail; very careful and precise.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 62
+    },
+    {
+        "title": "Para Jumbles — Topic Sentence",
+        "description": "Arrange: P. Thus global warming is a serious threat. Q. Carbon emissions have increased by 40% since 1990. R. This has led to rising temperatures worldwide. S. Governments must act urgently to reduce emissions.",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "QRPS",
+            "QPRS",
+            "RQPS",
+            "SQRP"
+        ],
+        "correct_answer": "QRPS",
+        "explanation": "Logical flow: Emissions increased (Q) → Temperatures rose (R) → Serious threat (P) → Governments must act (S).",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 48
+    },
+    {
+        "title": "Vocabulary — Analogy",
+        "description": "VERBOSE : CONCISE :: OPAQUE : ?",
+        "difficulty": "Hard",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Transparent",
+            "Dense",
+            "Cloudy",
+            "Dark"
+        ],
+        "correct_answer": "Transparent",
+        "explanation": "Verbose (wordy) is opposite of concise (brief). Opaque (not transparent) is opposite of transparent.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 42
+    },
+    {
+        "title": "Sentence Correction — Parallelism",
+        "description": "Choose the correct sentence:\nA) She likes hiking, swimming, and to ride bikes.\nB) She likes hiking, swimming, and riding bikes.\nC) She likes to hike, swimming, and riding bikes.\nD) She likes to hiking, to swimming, and riding.",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "correct_answer": "B",
+        "explanation": "Parallel structure requires all items in a list to have the same form: hiking, swimming, riding (all gerunds).",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 58
+    },
+    {
+        "title": "Fill in the Blank — Phrasal Verb",
+        "description": "The meeting was ___ due to lack of quorum.",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "called off",
+            "called on",
+            "called up",
+            "called for"
+        ],
+        "correct_answer": "called off",
+        "explanation": "'Called off' means cancelled. 'Called on' = visited. 'Called up' = telephoned. 'Called for' = demanded.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 68
+    },
+    {
+        "title": "One Word — Government",
+        "description": "Government by a single person with absolute power is called:",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Autocracy",
+            "Democracy",
+            "Oligarchy",
+            "Plutocracy"
+        ],
+        "correct_answer": "Autocracy",
+        "explanation": "Autocracy = one person with absolute power. Democracy = by the people. Oligarchy = by a few. Plutocracy = by the wealthy.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 72
+    },
+    {
+        "title": "Comprehension — Critical Analysis",
+        "description": "Read: 'Remote work has increased productivity by 13% according to Stanford research. However, 67% of remote workers report feeling disconnected from colleagues. Companies are now experimenting with hybrid models to balance efficiency with human connection.'\n\nWhat is the author suggesting?",
+        "difficulty": "Hard",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Hybrid work balances productivity and connection",
+            "Remote work should be banned",
+            "Office work is always better",
+            "Productivity doesn't matter"
+        ],
+        "correct_answer": "Hybrid work balances productivity and connection",
+        "explanation": "The passage presents benefits of remote work, drawbacks of isolation, and suggests hybrid models as the balanced solution.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 52
+    },
+    {
+        "title": "Idiom — Barking Up Wrong Tree",
+        "description": "What does 'barking up the wrong tree' mean?",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Making a wrong assumption",
+            "Climbing a tree",
+            "Being scared of dogs",
+            "Walking in a forest"
+        ],
+        "correct_answer": "Making a wrong assumption",
+        "explanation": "'Barking up the wrong tree' means pursuing a mistaken or misguided course of action.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 80
+    },
+    {
+        "title": "Error Spotting — Comparative",
+        "description": "Find the error: 'She is more taller than her sister.'",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "more taller → taller",
+            "than → then",
+            "her → hers",
+            "sister → sisters"
+        ],
+        "correct_answer": "more taller → taller",
+        "explanation": "'Taller' is already comparative. Adding 'more' is redundant. Correct: 'She is taller than her sister.'",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 82
+    },
+    {
+        "title": "Synonym — COPIOUS",
+        "description": "Choose the word closest in meaning to COPIOUS.",
+        "difficulty": "Hard",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Abundant",
+            "Scarce",
+            "Minimal",
+            "Tiny"
+        ],
+        "correct_answer": "Abundant",
+        "explanation": "Copious means in large quantities; abundant or plentiful.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 45
+    },
+    {
+        "title": "Sentence Completion — Logic",
+        "description": "Despite the heavy rain, the match was ___ because the ground had excellent drainage.",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "not cancelled",
+            "postponed",
+            "cancelled",
+            "abandoned"
+        ],
+        "correct_answer": "not cancelled",
+        "explanation": "'Despite' indicates contrast. Heavy rain would normally cancel a match, but good drainage prevented this.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 65
+    },
+    {
+        "title": "Active-Passive — Complex",
+        "description": "Convert to passive: 'They will have completed the project by December.'",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "The project will have been completed by them by December.",
+            "The project will be completed by December.",
+            "The project had been completed by them.",
+            "The project is being completed by them."
+        ],
+        "correct_answer": "The project will have been completed by them by December.",
+        "explanation": "Future perfect active → will have been + past participle (passive).",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 48
+    },
+    {
+        "title": "Vocabulary — Nuance",
+        "description": "Choose the most appropriate word: 'The judge's decision was fair and ___.'",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "impartial",
+            "partial",
+            "biased",
+            "prejudiced"
+        ],
+        "correct_answer": "impartial",
+        "explanation": "Impartial means treating all equally; unbiased. It pairs naturally with 'fair'.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 70
+    },
+    {
+        "title": "Reading Comp — Author's Purpose",
+        "description": "Read: 'Every year, 8 million tonnes of plastic enters our oceans. By 2050, there could be more plastic than fish by weight. We don't need an alternative to plastic — we need an alternative to our throwaway culture.'\n\nWhat is the author's purpose?",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "To persuade people to change their consumption habits",
+            "To promote new plastic materials",
+            "To praise ocean conservation",
+            "To explain how plastic is made"
+        ],
+        "correct_answer": "To persuade people to change their consumption habits",
+        "explanation": "The author uses alarming statistics and explicitly calls for changing 'throwaway culture' — a persuasive purpose.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 60
+    },
+    {
+        "title": "One Word — Impossible to Read",
+        "description": "Handwriting that is impossible to read is called:",
+        "difficulty": "Easy",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Illegible",
+            "Eligible",
+            "Edible",
+            "Legible"
+        ],
+        "correct_answer": "Illegible",
+        "explanation": "Illegible = impossible to read. Legible = easy to read. Eligible = qualified. Edible = can be eaten.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 78
+    },
+    {
+        "title": "Direct-Indirect — Question",
+        "description": "Convert: She asked me, 'Where do you live?'",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "She asked me where I lived.",
+            "She asked me where do I live.",
+            "She asked me where did I live.",
+            "She told me where I live."
+        ],
+        "correct_answer": "She asked me where I lived.",
+        "explanation": "In indirect speech, the question becomes a statement: question word + subject + verb (past tense).",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 55
+    },
+    {
+        "title": "Antonym — CANDID",
+        "description": "Choose the word opposite in meaning to CANDID.",
+        "difficulty": "Medium",
+        "category_id": 4,
+        "answer_type": "mcq",
+        "options": [
+            "Secretive",
+            "Frank",
+            "Open",
+            "Honest"
+        ],
+        "correct_answer": "Secretive",
+        "explanation": "Candid means truthful and straightforward. Secretive (hiding information) is the opposite.",
+        "constraints_info": null,
+        "examples": [],
+        "acceptance_rate": 58
+    }
+]

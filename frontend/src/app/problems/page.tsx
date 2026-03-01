@@ -71,30 +71,34 @@ export default function ProblemsPage() {
         fetchSolved();
     }, [user]);
 
-    // Fetch problems from Supabase
+    // Fetch problems via server-side API route (bypasses CORS)
     useEffect(() => {
-        const supabase = getSupabase();
         const fetchProblems = async () => {
-            let query = supabase
-                .from('problems')
-                .select('*, categories(name, slug)', { count: 'exact' });
+            try {
+                const params = new URLSearchParams();
+                if (search) params.set('search', search);
+                if (difficulty) params.set('difficulty', difficulty);
+                if (category) params.set('category', category);
+                params.set('page', String(currentPage));
+                params.set('perPage', String(perPage));
 
-            if (difficulty) query = query.eq('difficulty', difficulty);
-            if (category) query = query.eq('categories.slug', category);
-            if (search) query = query.ilike('title', `%${search}%`);
+                const res = await fetch(`/api/problems?${params.toString()}`);
+                const json = await res.json();
 
-            const from = (currentPage - 1) * perPage;
-            query = query.range(from, from + perPage - 1).order('id', { ascending: true });
-
-            const { data, count, error } = await query;
-            if (!error && data) {
-                let mapped = (data as unknown as SupaProblem[]).map(mapProblem);
-                if (status === 'solved') mapped = mapped.filter(p => p.solved);
-                if (status === 'unsolved') mapped = mapped.filter(p => !p.solved);
-                setProblems(mapped);
-                setTotal(count || data.length);
-                setIsLive(true);
-            } else {
+                if (res.ok && json.data) {
+                    let mapped = (json.data as SupaProblem[]).map(mapProblem);
+                    if (status === 'solved') mapped = mapped.filter(p => p.solved);
+                    if (status === 'unsolved') mapped = mapped.filter(p => !p.solved);
+                    setProblems(mapped);
+                    setTotal(json.count || json.data.length);
+                    setIsLive(true);
+                } else {
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                    setProblems(sampleProblems as any);
+                    setTotal(sampleProblems.length);
+                    setIsLive(false);
+                }
+            } catch {
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 setProblems(sampleProblems as any);
                 setTotal(sampleProblems.length);

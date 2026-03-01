@@ -39,32 +39,34 @@ export default function ProblemDetailPage({ params }: { params: Promise<{ id: st
     const { user } = useAuth();
 
     useEffect(() => {
-        const supabase = getSupabase();
         const fetchProblem = async () => {
-            const { data, error } = await supabase
-                .from('problems')
-                .select('*, categories(name, slug)')
-                .eq('id', parseInt(id))
-                .single();
+            try {
+                const res = await fetch(`/api/problems/${id}`);
+                const json = await res.json();
 
-            if (!error && data) {
-                setProblem({
-                    id: data.id,
-                    title: data.title,
-                    description: data.description,
-                    difficulty: data.difficulty,
-                    category: data.categories?.name || '',
-                    category_slug: data.categories?.slug || '',
-                    answer_type: data.answer_type,
-                    options: data.options,
-                    correct_answer: data.correct_answer,
-                    explanation: data.explanation,
-                    constraints_info: data.constraints_info,
-                    examples: data.examples || [],
-                    acceptance_rate: data.acceptance_rate,
-                });
-                setIsLive(true);
-            } else {
+                if (res.ok && json.data) {
+                    const data = json.data;
+                    setProblem({
+                        id: data.id,
+                        title: data.title,
+                        description: data.description,
+                        difficulty: data.difficulty,
+                        category: data.categories?.name || '',
+                        category_slug: data.categories?.slug || '',
+                        answer_type: data.answer_type,
+                        options: data.options,
+                        correct_answer: data.correct_answer,
+                        explanation: data.explanation,
+                        constraints_info: data.constraints_info,
+                        examples: data.examples || [],
+                        acceptance_rate: data.acceptance_rate,
+                    });
+                    setIsLive(true);
+                } else {
+                    const sample = sampleProblems.find((p) => p.id === parseInt(id)) || null;
+                    setProblem(sample);
+                }
+            } catch {
                 const sample = sampleProblems.find((p) => p.id === parseInt(id)) || null;
                 setProblem(sample);
             }
