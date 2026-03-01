@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import { createContext, useContext, useEffect, useState, useRef, ReactNode } from 'react';
 import { User, Session } from '@supabase/supabase-js';
 import { getSupabase } from './supabaseClient';
 
@@ -40,33 +40,52 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const [profile, setProfile] = useState<UserProfile | null>(null);
     const [session, setSession] = useState<Session | null>(null);
     const [loading, setLoading] = useState(true);
+    const loadingResolved = useRef(false);
     const supabase = getSupabase();
 
+    // Fetch profile via server-side API route (bypasses CORS)
     const fetchProfile = async (userId: string) => {
         try {
-            const { data } = await supabase
-                .from('profiles')
-                .select('*')
-                .eq('id', userId)
-                .single();
-            if (data) setProfile(data as UserProfile);
+            const res = await fetch('/api/profile', {
+                headers: { 'x-user-id': userId },
+            });
+            const json = await res.json();
+            if (res.ok && json.profile) {
+                setProfile(json.profile as UserProfile);
+            }
         } catch {
-            // Profile fetch failed (possible CORS issue) - continue without profile
+            // Profile fetch failed - continue without profile
+        }
+    };
+
+    // Force loading to false - prevents UI from hanging forever
+    const resolveLoading = () => {
+        if (!loadingResolved.current) {
+            loadingResolved.current = true;
+            setLoading(false);
         }
     };
 
     useEffect(() => {
-        // Get initial session
+        // SAFETY: Force loading=false after 3 seconds no matter what
+        // This prevents the auth from hanging the entire UI if Supabase is unreachable
+        const timeout = setTimeout(() => {
+            resolveLoading();
+        }, 3000);
+
+        // Try to get the initial session
         const initSession = async () => {
             try {
                 const { data: { session: initialSession } } = await supabase.auth.getSession();
                 setSession(initialSession);
                 setUser(initialSession?.user ?? null);
-                if (initialSession?.user) fetchProfile(initialSession.user.id);
+                if (initialSession?.user) {
+                    fetchProfile(initialSession.user.id);
+                }
             } catch {
                 // Session init failed - continue as logged out
             }
-            setLoading(false);
+            resolveLoading();
         };
         initSession();
 
@@ -80,30 +99,47 @@ export function AuthProvider({ children }: { children: ReactNode }) {
                 } else {
                     setProfile(null);
                 }
-                setLoading(false);
+                resolveLoading();
             }
         );
 
-        return () => subscription.unsubscribe();
+        return () => {
+            clearTimeout(timeout);
+            subscription.unsubscribe();
+        };
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const signIn = async (email: string, password: string) => {
-        const { error } = await supabase.auth.signInWithPassword({ email, password });
-        return { error: error?.message ?? null };
+        try {
+            const { error } = await supabase.auth.signInWithPassword({ email, password });
+            return { error: error?.message ?? null };
+        } catch {
+            return { error: 'Sign in failed. Please try again.' };
+        }
     };
 
     const signUp = async (email: string, password: string, username: string) => {
-        const { error } = await supabase.auth.signUp({
-            email,
-            password,
-            options: { data: { username } },
-        });
-        return { error: error?.message ?? null };
+        try {
+            const { error } = await supabase.auth.signUp({
+                email,
+                password,
+                options: { data: { username } },
+            });
+            return { error: error?.message ?? null };
+        } catch {
+            return { error: 'Sign up failed. Please try again.' };
+        }
     };
 
     const signOut = async () => {
-        await supabase.auth.signOut();
+        try {
+            await supabase.auth.signOut();
+        } catch {
+            // Sign out failed - clear local state anyway
+        }
+        setUser(null);
+        setSession(null);
         setProfile(null);
     };
 
