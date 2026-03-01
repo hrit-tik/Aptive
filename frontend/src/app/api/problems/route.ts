@@ -15,9 +15,14 @@ export async function GET(request: NextRequest) {
     const page = parseInt(searchParams.get('page') || '1');
     const perPage = parseInt(searchParams.get('perPage') || '15');
 
+    // Use !inner join when filtering by category so PostgREST actually filters the rows
+    const categorySelect = category
+        ? '*, categories!inner(name, slug)'
+        : '*, categories(name, slug)';
+
     let query = supabase
         .from('problems')
-        .select('*, categories(name, slug)', { count: 'exact' });
+        .select(categorySelect, { count: 'exact' });
 
     if (difficulty) query = query.eq('difficulty', difficulty);
     if (category) query = query.eq('categories.slug', category);
